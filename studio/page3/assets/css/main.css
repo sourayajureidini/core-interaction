@@ -1,0 +1,36 @@
+ body {
+   font-family:  futura;
+ background: whitesmoke;
+ background-color: light-blue;
+
+}
+
+#A10 {
+color: black;
+padding: 20px;
+}
+
+#img1 {
+
+     position: relative;
+     float: left;
+     padding: 100px;
+     display: inline-block;
+     margin: auto;
+
+
+}
+
+#img2 {
+  display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 30px;
+   padding: 40px;
+   position: static;
+   margin: auto;
+}
+
+h4 {
+font-family: futura;
+}
