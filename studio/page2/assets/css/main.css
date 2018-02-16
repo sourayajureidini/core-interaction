@@ -1,7 +1,6 @@
  body {
    font-family:  futura;
  background: whitesmoke;
- background-color: light-blue;
 
 }
 
@@ -18,12 +17,6 @@ h2 {
 }
 
 
-H5 {
-color: orange;
-font-style: italic;
-padding-top: 10px;
-}
-
 
 h7 {
 font-size: 60px;
@@ -39,41 +32,5 @@ font-weight: normal;
 font-style: normal;
 padding-top: 140px;
 color: teal;
-}
-
-h8 {
-font-color: pink;
-padding-top: 30px;
-padding-bottom: 50px;
-}
-
-#A10 {
-position: absolute;
-color: black;
-padding-bottom: 10px;
-margin: auto;
-padding: 40px;
-display:
-}
-
-#img1 {
-  margin: relative;
-     position: relative;
-     float: left;
-     padding: 40px;
-     display: inline-block;
-     position: static;
-     margin: auto;
-
-
-}
-
-#img2 {
-  display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
-   height: 30px;
-   padding: 40px;
-   position: static;
-   margin: auto;
+font-family: futura;
 }
