@@ -1,0 +1,99 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+
+.container {
+height: 900px;
+width: 900px;
+padding: 50px;
+background-color:rgb(250,203,99);
+position: relative;
+}
+
+
+.rectangle {
+position: absolute;
+width: 225px;
+height: 800px;
+background-color:rgb(98,175,158);
+}
+
+
+.rectangle-2 {
+position: absolute;
+left: 312.5px;
+width: 50px;
+height: 225px;
+background-color:rgb(55,76,100);
+}
+
+.rectangle-3 {
+position: absolute;
+left: 312.5px;
+bottom:129px;
+width: 50px;
+height: 495px;
+background-color:rgb(228,74,89);
+}
+
+.rectangle-5 {
+position: absolute;
+left: 312.5px;
+bottom:129px;
+top: 797.5px;
+width: 535px;
+height: 25px;
+background-color:rgb(228,74,89);
+}
+
+.rectangle-6 {
+position: absolute;
+left: 312.5px;
+top: 822.5px;
+width: 535px;
+height: 25px;
+background-color:rgb(55,76,100);
+}
+
+.square {
+width: 450px;
+height: 450px;
+position: absolute;
+left: 397.5px;
+background-color:rgb(228,74,89);
+}
+
+.square-1 {
+  position: absolute;
+  background-color:rgb(215,127,77);
+  width: 200px;
+  height: 200px;
+  right: 25px;
+  top: 25px;
+  bottom: 25px;
+}
+
+.rectangle-4 {
+width: 450px;
+height: 250px;
+position: absolute;
+top:522.5px;
+left: 397.5px;
+background-color:rgb(55,76,100);
+}
+
+.circle {
+position: absolute;
+background-color:rgb(98,175,158);
+width: 200px;
+height: 200px;
+left: 25px;
+top: 25px;
+bottom: 25px;
+border-radius: 80%;
+}

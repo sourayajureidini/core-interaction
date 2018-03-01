@@ -1,0 +1,113 @@
+div {
+  width: 300px;
+  height: 300px;
+}
+
+#a1 {
+color: orange;
+background-color: pink;
+display: none;
+}
+
+
+#a2 {
+background-color: red;
+color: white;
+}
+
+#a3 {
+background-color: orange;
+display: inline-block;
+}
+
+#a4 {
+background-color: yellow;
+display: inline;
+}
+
+#a5 {
+  width: 350px;
+  height: 350px;
+  background-color: green;
+  border-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#a6 {
+position: relative;
+height: auto;
+width: auto;
+left: 30px;
+top: 30px;
+
+}
+
+#b1 {
+width: 100%;
+height: 100%;
+background-color: pink;
+}
+
+.c {
+width: 300px;
+height: 300px;
+background-color: grey;
+position: absolute;
+}
+
+#c1 {
+background-color: rgb(50,50,50);
+}
+
+#c2{
+background-color: rgb(100,100,100);
+left: 30px;
+top: 30px;
+}
+
+#c3 {
+background-color: rgb(50,50,50);
+left: 60px;
+top: 60px;
+padding: 10px;
+}
+
+.d {
+  width: 62.5px;
+  height: 62.5px;
+  background-color: teal;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#d3 {
+position: relative;
+top: 30px
+}
+
+#d4 {
+  margin-right: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  top: 10px;
+  height: auto;
+}
+
+nav {
+position: fixed;
+top: 0;
+right: 0;
+background-color: orange;
+}
+
+nav li {
+display: inline-block;
+}
+
+nav li:hover {
+background-color: white;
+}
