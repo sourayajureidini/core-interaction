@@ -1,0 +1,40 @@
+body {
+font-family: futura;
+background-image: url('../img/wall.jpg');
+background-size: cover;
+opacity: 90%;
+}
+
+a:link {
+}
+
+a:hover {
+color: white;
+opacity: 90%;}
+
+.links {
+font-size: 100px;
+color: lightblue;
+opacity: 0.9;
+position: relative;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+color: lightsalmon;
+font-size: 200px;
+opacity: 0.9;
+}
+
+.back {
+font-size: 60px;
+position: relative;
+left: 50%;
+top: 300px;
+color: white;
+}
+
+.back:hover{
+color: lightsalmon;
+}

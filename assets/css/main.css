@@ -1,4 +1,32 @@
 body {
-  font-family:  futura;
-  color: brown;
+font-family: futura;
+background-image: url('../img/moon.jpg');
+}
+
+a:link {
+color: white
+}
+
+a:hover {
+color: darksalmon;
+opacity: 90%;
+transform: skew(-10deg);
+}
+
+.links {
+font-size: 300px;
+position: relative;
+}
+
+.studio {
+display: block;
+color: white;
+opacity: 70%;
+
+}
+
+.lab {
+display: block;
+color: white;
+opacity: 70%;
 }
