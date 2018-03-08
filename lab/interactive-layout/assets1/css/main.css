@@ -10,10 +10,12 @@ body{
 .pattern1{
   height: 500%;
   width: 100%;
+  position: relative;
+  top: 100px;
 }
 
 .pattern2{
-  height: 75%;
+  height: 15%;
   width: 75%;
   display: none;
 }
@@ -34,10 +36,16 @@ body{
 @media (max-width: 900px) {
   .pattern1{
     display: none;
+
   }
 
   .pattern2{
     display: block;
+    padding: 20px;
+    position: relative;
+    top: 250px;
+    margin: auto;
+    width: 650px;
   }
 
   body{
@@ -46,22 +54,24 @@ body{
 }
 
 @media (max-width: 800px) {
-  .pattern2{
+  .pattern3{
     display: none;
   }
 
-  .pattern3{
-    display: block;
-  }
-
-}
-
-@media (max-width: 700px) {
-  .pattern3{
+  .pattern2{
     display: none;
   }
 
   .pattern4{
     display: block;
+    padding: 20px;
+    position: relative;
+    top: 250px;
+    margin: auto;
+    background-color: lightblue;
   }
+
+  }
+
+
 }
