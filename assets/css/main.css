@@ -1,6 +1,7 @@
 body {
 font-family: futura;
 background-image: url('../img/moon.JPG');
+background-size: contain;
 }
 
 a:link {
@@ -14,12 +15,14 @@ transform: skew(-10deg);
 }
 
 .links {
-font-size: 300px;
+font-size: 100px;
 position: relative;
+top: 100px;
 }
 
 .studio {
 display: block;
+margin: auto;
 color: white;
 opacity: 70%;
 

@@ -1,7 +1,7 @@
 body {
 font-family: futura;
-background-size: cover;
-opacity: 90%;
+background-size: contain;
+opacity: 0.5;
 }
 
 a:link {
