@@ -105,27 +105,52 @@ console.log("me['name']:", me['name']);
 
 console.log('Functions -');
 
-var sayhi = function() {
-console.log('hi')
-console.log('hello')
-console.log('hi')
+var squared = function (number) {
+return number * number
+}
+
+var describeMe = function (me) {
+  return 'My name is' + me.name + ' I am ' + me.age + ' yrs old. If you asked me if I\'m a nativeNewyorkers my response would be no ' + me.NativeNewYorker;
 };
 
-sayhi()
-sayhi()
-sayhi()
-sayhi()
-sayhi()
+console.log('')
 
-var saysomemessage =  function(message) { //message is the name of the argument
-console.log (message);
+//Conditional statements
+
+console.log('Conditional Statements -')
+
+if (me.age > 21) {
+console.log('party time')
+} else if (me.age < 5) {
+console.log ('why are you here') }
+else {
+console.log('not quite yet')
 }
 
-console.log("saysomemessage'('hello'):");
-saysomemessage('hello');
-saysomemessage('goodbye');
+//loop
+console.log('Loops -')
 
-var addNumbers = function(num1, num2) {
-return num1 + num2
+var hamburgers = 5;
+for (var i = 0; hamburgers <10; i++) {
+console.log(hamburgers + ' hamburger(s)');
+hamburgers++;
 }
-console.log(addNumbers(8,12));
+
+
+for (var i= 0; i < 5; i++) {
+console.log(i);
+}
+
+// i = counter, i < 3 we're defining the condition(limit) / i++ adding 1. i =+ 2 adds 2
+
+
+console.log ('how many licks does it take to get to the center of a tootsie pop?')
+
+for (var licks= 1; licks <= 4; licks++ ) {
+if (licks ==4) {
+console.log('CRUNCH!!!')
+
+} else {
+console.log(licks)
+}
+}

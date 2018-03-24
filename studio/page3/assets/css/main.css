@@ -1,40 +1,90 @@
+  * {
+      box-sizing: border-box;
+  }
+
+.title {
+font-family: 'Playfair Display', serif; black;
+font-size: 100px;
+text-align: center;
+/*text-shadow: 4px 4px 4px #aaa;*/
+}
+
  body {
-  font-family:  futura;
  background: whitesmoke;
+ font-family: futura;
+ margin: 100px;
+ line-height: 30px;
+ }
 
+
+.subtitle {
+font-family: 'Playfair Display', serif;
+text-align: center;
+font-size: 50px;
+position: relative;
 }
 
-#A10 {
-color: black;
-padding: 20px;
+
+  .introduction {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  padding: 70px;
+  top: 30px;
+  font-size: 30px;
+  position: relative;
+  color: orange;
+  line-height: 40px;
+
+  }
+
+  .column {
+      float: left;
+      width: 35%;
+      padding: 10px;
+      position: relative;
+      left: 150px;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
 }
 
-#img1 {
-
-     position: relative;
-     float: left;
-     padding: 100px;
-     display: inline-block;
-     margin: auto;
-
-
+img {
+height: 650px;
+position: relative;
+left: 100px;
+top: 40px;
 }
 
-#img2 {
+.back {
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  color: black;
   display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
-   height: 30px;
-   padding: 40px;
-   position: static;
-   margin: auto;
+  padding: 5px;
+    right: 550px;
+    left: 1200px;
+    font-size: 36px;
 }
 
+.links {
 
-H4 {
-font-weight: normal;
-font-style: normal;
-padding-top: 140px;
-color: teal;
-font-family: futura;
+}
+
+.back:hover {
+  transition-property: transform;
+  transition-duration: 3s;
+    transform: translateX(-200px);
+color:peachpuff;
+opacity: 0.3;
+}
+
+a {
+color:peachpuff;
+}
+
+a:hover {
+color:orange;
 }
