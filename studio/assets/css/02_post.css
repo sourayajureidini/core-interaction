@@ -1,0 +1,90 @@
+  * {
+      box-sizing: border-box;
+  }
+
+.title {
+font-family: 'Playfair Display', serif; black;
+font-size: 100px;
+text-align: center;
+/*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+ body {
+ background: whitesmoke;
+ font-family: futura;
+ margin: 100px;
+ line-height: 30px;
+ }
+
+
+.subtitle {
+font-family: 'Playfair Display', serif;
+text-align: center;
+font-size: 50px;
+position: relative;
+}
+
+
+  .introduction {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  padding: 70px;
+  top: 30px;
+  font-size: 30px;
+  position: relative;
+  color: orange;
+  line-height: 40px;
+
+  }
+
+  .column {
+      float: left;
+      width: 35%;
+      padding: 10px;
+      position: relative;
+      left: 150px;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+img {
+height: 650px;
+position: relative;
+left: 100px;
+top: 40px;
+}
+
+.back {
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  color: black;
+  display: inline-block;
+  padding: 5px;
+    right: 550px;
+    left: 1200px;
+    font-size: 36px;
+}
+
+.links {
+
+}
+
+.back:hover {
+  transition-property: transform;
+  transition-duration: 3s;
+    transform: translateX(-200px);
+color:peachpuff;
+opacity: 0.3;
+}
+
+a {
+color:peachpuff;
+}
+
+a:hover {
+color:orange;
+}
