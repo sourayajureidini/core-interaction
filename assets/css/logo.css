@@ -1,0 +1,33 @@
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+   width: 15%;
+}
+
+.showbox {
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #AA0000;
+  background-color: #AA0000;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  position: absolute;
+  left: 55%;
+  top: 29%;
+}
+.showbox.slideright:hover {
+  -webkit-transform: translate(3em,0.2);
+  -moz-transform: translate(3em,0);
+  -o-transform: translate(3em,0);
+  -ms-transform: translate(3em,0);
+  transform: translate(3em,0);
+}
+
+.showbox:hover {
+     transform: translateX(200px);
+   }

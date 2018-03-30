@@ -6,6 +6,18 @@ background-color: floralwhite;
 
 }
 
+.introduction {
+font-family: 'Playfair Display', serif;
+font-style: normal;
+padding: 70px;
+top: 30px;
+font-size: 30px;
+position: relative;
+color: orange;
+line-height: 40px;
+
+}
+
 .title {
 font-family: 'Playfair Display', serif;
 font-size: 100px;
@@ -14,46 +26,33 @@ text-align: center;
 }
 
 
-#A10 {
-padding: 20px;
-text-align: center;
-}
+  .column {
+      float: left;
+      width: 60%;
+      padding: 10px;
+      position: relative;
+      left: 100px;
+      align-items: center;
+      display: block;
+      top: 30px;
 
+  }
 
-
-H3 {
-font-weight: normal;
-font-style: oblique;
-color: teal;
-font-family: futura;
-font-size: 60px;
-text-align: center;
-text-decoration: underline;
-}
-
-
-H4 {
-text-align: center;
-font-weight: normal;
-font-style: normal;
-padding-top: 140px;
-color: teal;
-font-family: futura;
-}
 
 img {
-display: block;
 margin-left: auto;
    margin-right: auto;
-   width: 40%;
+   width: 20%;
+   position: relative;
+   display: inline-block;
+       top: 185px;
 }
 
 video {
-  display: block;
-  margin-left: auto;
-     margin-right: auto;
-     width: 40%;
+     width: 90%;
      padding: 20px;
+     position: relative;
+     top: 180px;
 }
 
 .back {
@@ -68,26 +67,12 @@ video {
 }
 
 .links {
-
 }
 
 .back:hover {
-  transition-property: transform;
-  transition-duration: 3s;
-    transform: translateX(-200px);
+transition-property: transform;
+transition-duration: 3s;
+transform: translateX(-200px);
 color:peachpuff;
 opacity: 0.3;
 }
-
-
-  .introduction {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  padding: 70px;
-  top: 30px;
-  font-size: 30px;
-  position: relative;
-  color: orange;
-  line-height: 40px;
-
-  }
