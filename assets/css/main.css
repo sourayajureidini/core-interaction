@@ -33,3 +33,6 @@ display: block;
 color: white;
 opacity: 70%;
 }
+
+.container {
+position: absolute;}
