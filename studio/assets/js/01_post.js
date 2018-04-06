@@ -4,7 +4,7 @@ var myDebt = 'ideal'
 
 debtDiv.addEventListener('mouseover' , function() {
   myDebt = 'sexually passive'
-  debtDiv.innerText = 'sexually passive',
+  debtDiv.innerText = 'sexually passive'
 })
 
 debtDiv.addEventListener('mouseout' , function() {
