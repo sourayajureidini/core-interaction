@@ -14,6 +14,7 @@ text-align: center;
  font-family: futura;
  margin: 150px;
  line-height: 20px;
+ background-color: snow;
  }
 
 .text {
@@ -127,6 +128,7 @@ color:orange;
 
 .boxdates {
 position: relative;
+color: peachpuff;;
 font-size: 50px;
 left: 800px;
 top: 500px;
