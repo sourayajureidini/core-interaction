@@ -1,0 +1,135 @@
+  * {
+      box-sizing: border-box;
+  }
+
+.title {
+font-family: 'Playfair Display', serif; black;
+font-size: 100px;
+text-align: center;
+/*text-shadow: 4px 4px 4px #aaa;*/
+}
+
+ body {
+ background: whitesmoke;
+ font-family: futura;
+ margin: 150px;
+ line-height: 20px;
+ }
+
+.text {
+width: 40%;
+}
+
+.subtitle {
+font-family: 'Playfair Display', serif;
+text-align: center;
+font-size: 50px;
+position: relative;
+}
+
+  .introduction {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  padding: 70px;
+  top: 30px;
+  font-size: 30px;
+  position: relative;
+  color: orange;
+  line-height: 40px;
+
+  }
+
+.back {
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  color: black;
+  display: inline-block;
+    right: 550px;
+    left: 1200px;
+    font-size: 36px;
+
+}
+
+.links {
+}
+
+.img1 {
+    width: 350px;
+    height: 450px;
+    border: 6px dotted black;
+
+}
+
+.img2 {
+
+    width: 350px;
+    height: 450px;
+    border: 6px dotted black;
+}
+
+.back:hover {
+  transition-property: transform;
+  transition-duration: 3s;
+transform: translateX(-200px);
+color:peachpuff;
+opacity: 0.3;
+}
+
+a {
+color:peachpuff;
+}
+
+a:hover {
+color:orange;
+}
+
+.container {
+	height: 450px;
+	margin-bottom: 20px;
+}
+
+.block {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif; black;
+	height: 80px;
+}
+
+.block.one.is-active {
+	display: block;
+    position: relative;
+    left: 40px;
+}
+
+.block.one {
+	display: none;
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif; black;
+    color:orange;
+    padding: 10px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.block.two {
+	display: none;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif; black;
+    color: orange;
+    left: 100px;
+    padding: 10px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.block.two.is-active {
+	display: block;
+    font-size:60px;
+}
+
+.boxdates {
+position: relative;
+font-size: 50px;
+left: 800px;
+top: 500px;
+line-height: 50px;
+text-shadow: 4px 4px 4px #aaa;
+}
