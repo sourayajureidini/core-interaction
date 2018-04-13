@@ -2,7 +2,9 @@
   font-family:  futura;
  font-style: normal;
  font-weight: lighter;
-background-color: floralwhite;
+background-color: snow;
+line-height: 30px;
+padding: 10px;
 
 }
 
@@ -38,21 +40,24 @@ text-align: center;
 
   }
 
-
-img {
-margin-left: auto;
-   margin-right: auto;
-   width: 20%;
-   position: relative;
-   display: inline-block;
-       top: 185px;
-}
-
-video {
-     width: 90%;
-     padding: 20px;
+  .img1 {
+  margin-left: auto;
+     margin-right: auto;
+     width: 30%;
      position: relative;
-     top: 180px;
+     display: inline-block;
+         top: 315px;
+         -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+         filter: grayscale(0%); /* FF 35+ */
+         transition: filter .2s ease-in-out;
+       }
+
+
+  .img1:hover {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(70%);
+  }
+
 }
 
 .back {

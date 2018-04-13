@@ -1,6 +1,6 @@
-  * {
-      box-sizing: border-box;
-  }
+* {
+    box-sizing: border-box;
+}
 
 .title {
 font-family: 'Playfair Display', serif; black;
@@ -9,16 +9,12 @@ text-align: center;
 /*text-shadow: 4px 4px 4px #aaa;*/
 }
 
- body {
- background: whitesmoke;
- font-family: futura;
- margin: 150px;
- line-height: 20px;
- background-color: snow;
- }
-
-.text {
-width: 40%;
+body {
+background: whitesmoke;
+font-family: futura;
+margin: 152px;
+line-height: 30px;
+background-color: snow;
 }
 
 .subtitle {
@@ -28,49 +24,59 @@ font-size: 50px;
 position: relative;
 }
 
-  .introduction {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  padding: 70px;
-  top: 30px;
-  font-size: 30px;
-  position: relative;
-  color: orange;
-  line-height: 40px;
-
-  }
+.introduction {
+font-family: 'Playfair Display', serif;
+font-style: normal;
+padding: 70px;
+top: 30px;
+font-size: 30px;
+position: relative;
+color: orange;
+line-height: 40px;
+}
 
 .back {
-  font-family: 'Playfair Display', serif;
-  position: relative;
-  color: black;
-  display: inline-block;
-    right: 550px;
-    left: 1200px;
-    font-size: 36px;
+font-family: 'Playfair Display', serif;
+position: relative;
+color: black;
+display: inline-block;
+  right: 550px;
+  left: 1200px;
+  font-size: 36px;
 
 }
 
 .links {
 }
 
+img {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+    transition: filter .2s ease-in-out;
+    }
+}
+
+img:hover {
+-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+filter: grayscale(70%);
+}
+
 .img1 {
-    width: 350px;
-    height: 450px;
-    border: 6px dotted black;
+  width: 350px;
+  height: 450px;
+  border: 9px solid black;
 
 }
 
 .img2 {
-
-    width: 350px;
-    height: 450px;
-    border: 6px dotted black;
+  width: 350px;
+  height: 450px;
+  border: 6px solid orange ;
 }
 
 .back:hover {
-  transition-property: transform;
-  transition-duration: 3s;
+transition-property: transform;
+transition-duration: 3s;
 transform: translateX(-200px);
 color:peachpuff;
 opacity: 0.3;
@@ -85,53 +91,76 @@ color:orange;
 }
 
 .container {
-	height: 450px;
-	margin-bottom: 20px;
+  height: 450px;
+  margin-bottom: 20px;
 }
 
 .block {
-    font-size: 30px;
-    font-family: 'Playfair Display', serif; black;
-	height: 80px;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif; black;
+  height: 80px;
 }
 
 .block.one.is-active {
-	display: block;
-    position: relative;
-    left: 40px;
-}
-
-.block.one {
-	display: none;
-    width: 100%;
-    font-size: 60px;
-    font-family: 'Playfair Display', serif; black;
-    color:orange;
-    padding: 10px;
-    text-shadow: 4px 4px 4px #aaa;
-}
-
-.block.two {
-	display: none;
-    font-size: 30px;
-    font-family: 'Playfair Display', serif; black;
-    color: orange;
-    left: 100px;
-    padding: 10px;
-    text-shadow: 4px 4px 4px #aaa;
+  display: inline-block;
+  position: relative;
 }
 
 .block.two.is-active {
-	display: block;
-    font-size:60px;
+  display: block;
+  font-size:60px;
 }
+
+.block.one {
+  display: none;
+  width: 100%;
+  font-size: 60px;
+  font-family: 'Playfair Display', serif; black;
+  color: brown;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
+.block.two {
+  display: none;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif; black;
+  color: brown;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
 
 .boxdates {
 position: relative;
-color: peachpuff;;
-font-size: 50px;
+font-family: 'Shrikhand', cursive;
+font-size: 60px;
+color: orange;
+opacity: 0.7;
 left: 800px;
 top: 500px;
-line-height: 50px;
-text-shadow: 4px 4px 4px #aaa;
+line-height: 60px;
+letter-spacing: 1px;
+text-shadow: 1px 1px 1px #aaa;
+}
+
+.boxdates:hover {
+    transition-property: transform;
+    transition-duration: 3s;
+    transform: translateX(-200px);
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 40%;
+    padding: 25px;
+    margin:auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
