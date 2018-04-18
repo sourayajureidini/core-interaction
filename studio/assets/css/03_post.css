@@ -8,26 +8,6 @@ padding: 10px;
 
 }
 
-.introduction {
-font-family: 'Playfair Display', serif;
-font-style: normal;
-padding: 70px;
-top: 30px;
-font-size: 30px;
-position: relative;
-color: orange;
-line-height: 40px;
-
-}
-
-.title {
-font-family: 'Playfair Display', serif;
-font-size: 100px;
-text-align: center;
-/*text-shadow: 4px 4px 4px #aaa;*/
-}
-
-
   .column {
       float: left;
       width: 60%;
