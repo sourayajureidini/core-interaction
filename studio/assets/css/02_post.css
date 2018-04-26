@@ -1,111 +1,70 @@
-  * {
-      box-sizing: border-box;
-  }
-
-.title {
-font-family: 'Playfair Display', serif; black;
-font-size: 100px;
-text-align: center;
-/*text-shadow: 4px 4px 4px #aaa;*/
-}
-
- body {
- background: whitesmoke;
- font-family: futura;
- margin: 100px;
- }
-
-
-.subtitle {
-font-family: 'Playfair Display', serif;
-text-align: center;
-font-size: 50px;
-position: relative;
-}
-
-  .introduction {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  padding: 70px;
-  top: 30px;
-  font-size: 30px;
-  position: relative;
-  color: orange;
-  line-height: 50px;
-}
-
-
-img {
-height: 450px;
-left: 100px;
-top: 40px;
+* {
+    box-sizing: border-box;
 }
 
 .img1 {
-height: 450px;
-position: relative;
-left: 100px;
-bottom: 150px;
-top: 40px;
--webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-filter: grayscale(0%); /* FF 35+ */
-transition: filter .2s ease-in-out;
+  width: 350px;
+  height: 450px;
+  align-items: center;
+  margin-left: 350px;
+  margin-top: 70px;
 }
 
-.back {
-  font-family: 'Playfair Display', serif;
-  position: relative;
-  color: black;
-  display: inline-block;
-  padding: 5px;
-    right: 550px;
-    left: 1200px;
-    font-size: 36px;
-}
-
-.links {
-
-}
-
-.back:hover {
-  transition-property: transform;
-  transition-duration: 3s;
-    transform: translateX(-200px);
-color:peachpuff;
-opacity: 0.3;
-}
-
-a {
-color:peachpuff;
-}
-
-a:hover {
-color:orange;
+.img2 {
+  width: 350px;
+  height: 450px;
+  margin-left: 100px;
+  margin-top: 70px;
 }
 
 .container {
-	border: 1px dotted black;
-	width: 150px;
-	height: 200px;
-	margin-bottom: 20px;
-}
+  height: 450px;
+  display: inline-block;
+  margin: auto;
+  }
 
 .block {
-	/*height: 50px;*/
-    height: 450px;
-    position: absolute;
-    left: 100px;
-    top: 40px;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif; black;
+  height: 80px;
+  display: inline-block;
 }
 
 .block.one.is-active {
-	display: block;
-}
+  display: block;
+  margin-left: 280px;
 
-.block.two {
-	display: none;
 }
 
 .block.two.is-active {
-	display: block;
+  display: block;
+   margin-left: 50px;
+}
+
+.block.one {
+    display: none;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+    color: brown;
+    padding: 10px;
+
+}
+
+.block.two {
+    display: none;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+    color: brown;
+    padding: 10px;
+ }
+
+.boxdates:hover {
+    transition-property: transform;
+    transition-duration: 3s;
+    transform: translateX(-200px);
+}
+
+.dates {
+color: #2A3732;
+opacity: 0.9;
 }

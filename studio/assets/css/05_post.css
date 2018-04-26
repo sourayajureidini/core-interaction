@@ -1,34 +1,4 @@
- body {
-  font-family: futura;
- background: whitesmoke;
 
-}
-
-#A10 {
-color: black;
-padding: 20px;
-}
-
-.parent {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 100px;
-   -moz-column-width: 100px;
-        column-width: 100px;
-   text-align: justify;
-   padding: 40px;
-      }
-
-h3 {
-font-weight: normal;
-font-style: oblique;
-color: teal;
-font-family: futura;
-font-size: 60px;
-text-align: center;
-text-decoration: underline;
-}
 
 #img1 {
 
@@ -72,20 +42,4 @@ font-style: normal;
 padding-top: 140px;
 color: teal;
 font-family: futura;
-}
-
-
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
 }
