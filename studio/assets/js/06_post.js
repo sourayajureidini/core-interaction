@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ "The 1950’s had a damaging <br> effect on women’s self esteem"];
+    var dataText = [ "The 1950’s had a damaging effect on women’s self esteem"];
     var speed = 50;
 
   function typeWriter(text, i, fnCallback) {

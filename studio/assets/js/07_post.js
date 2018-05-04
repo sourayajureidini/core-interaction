@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ " Mass Media sets specific standards <br> through popular imagery (Advertising, magazines..)<br>and therefore creates insecurities within society"];
+    var dataText = [ " Mass Media sets specific standards through popular imagery (advertising, magazines..) and therefore creates insecurities within society."];
     var speed = 50;
 
   function typeWriter(text, i, fnCallback) {

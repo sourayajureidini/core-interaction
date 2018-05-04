@@ -19,7 +19,7 @@
 
 .img2 {
   width: 535px;
-  height: 670px;
+  height: 650px;
   margin-left: 100px;
   margin-top: 70px;
   -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -43,7 +43,7 @@
   font-family: 'Playfair Display', serif; black;
   height: 80px;
   display: inline-block;
-  text-shadow: 1px 1px 1px #aaa;
+
 }
 
 .block.one.is-active {
@@ -59,34 +59,28 @@
 
 .block.one {
     display: none;
-    font-size: 50px;
+    font-size: 25px;
     font-family: 'Shrikhand', cursive;
-    color:  #aa5539;
+    color: #aa5539;
     padding: 10px;
-
+    position: relative;
+    bottom: 100px;
+    left: 25px;
 }
 
 .block.two {
     display: none;
-    font-size: 50px;
+    font-size: 25px;
     font-family: 'Shrikhand', cursive;
     color: brown;
     padding: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 25px;
  }
 
 .boxdates:hover {
     transition-property: transform;
     transition-duration: 3s;
     transform: translateX(-200px);
-}
-
-.dates {
-color: #2A3732;
-opacity: 0.9;
-}
-
-#la {
-    padding: 100px;
-    margin-top: 20px;
-    border: 1px solid brown;
 }

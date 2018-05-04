@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ "Advertising is everywhere therefore it cannot be avoided. <br>Societies are exposed to advertisement in all its <br> forms wether its  in a newspaper, magazine, on billboards <br> or while driving  down a highway."];
+    var dataText = [ "Advertising is everywhere therefore it cannot be avoided. Societies are exposed to advertisement in all its forms wether its  in a newspaper, magazine, on billboards or while driving  down a highway."];
     var speed = 50;
 
   function typeWriter(text, i, fnCallback) {

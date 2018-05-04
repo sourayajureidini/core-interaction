@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ "The full involvement of the US in the war, <br> the Japanese bombing of Pearl Harbor <br> and the gap of the labor force, caused by <br> departing soldiers also meant possibilities for women."];
+    var dataText = [ "The full involvement of the US in the war, the Japanese bombing of Pearl Harbor and the gap of the labor force, caused by departing soldiers also meant possibilities for women."];
     var speed = 50;
 
   function typeWriter(text, i, fnCallback) {

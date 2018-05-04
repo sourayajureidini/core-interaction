@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ "World War II did bring great changes <br> in men and women’s life in the United States"];
+    var dataText = [ "World War II did bring great changes in men and women’s life in the United States"];
     var speed = 50;
 
   function typeWriter(text, i, fnCallback) {

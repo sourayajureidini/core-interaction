@@ -70,7 +70,7 @@ color: brown;}
     content: '';
     position: absolute;
     width: 1px;
-    height: 100%;
+    height: 150%;
     background-color: peachpuff;
     top: 0;
     bottom: 0;
@@ -136,7 +136,7 @@ color: brown;}
 
 #post5 {
     position:relative;
-    left: 70px;
+        left: 70px;
       bottom: 105px;
      font-size: 50px;
 }
@@ -148,7 +148,12 @@ color: brown;}
       font-size: 50px;
 }
 
-
+#post9 {
+    
+      bottom: 85px;
+      font-size: 50px;
+      left: 560px;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -191,7 +196,7 @@ color: brown;}
 }
 
 .menu {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   color: black;
@@ -217,4 +222,39 @@ color: black;
 .menu-container {
 color: black;
 text-decoration: none;
+}
+
+
+.photo-grid-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 32%;
+}
+
+.photo-grid {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+    padding: 22px;
+    margin-top: 30px;
+}
+
+.womans-own-image:hover{
+    filter: grayscale(90%);
+}
+
+.shoe-ad-image:hover{
+    filter: grayscale(90%);
+}
+
+.nurse-image:hover{
+    filter: grayscale(90%);
 }

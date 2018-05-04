@@ -1,0 +1,41 @@
+.body {
+padding-bottom: 90px;
+}
+
+#img1 {
+float: none;
+margin-left: 80px;
+padding-bottom: 50px;}
+
+#img2 {
+float: none;
+display: inline-block;
+margin-left: 130px;
+}
+
+#img3 {
+float: none;
+margin-top: 60px;
+display: block;
+margin-left: 30%;
+}
+
+.la {
+  padding: 70px;
+  margin-top: 60px;
+  border: 1px solid brown;
+  margin: auto;
+}
+
+
+img {
+       -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+      filter: grayscale(0%); /* FF 35+ */
+     transition: filter .2s ease-in-out;
+   }
+
+img:hover {
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(70%);
+      }
+}
