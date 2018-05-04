@@ -25,15 +25,14 @@ border: 1px solid brown;
 }
 
 
+
 #box {
-    display: flex:
-    padding: 100px;
+    display: flex;
     margin-top: 80px;
     margin-left: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 32px;
     border: 1px solid brown;
 }
-
 
 #box-1 {
     margin-left: 120px;
