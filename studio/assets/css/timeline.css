@@ -136,7 +136,7 @@ color: brown;}
 
 #post5 {
     position:relative;
-        left: 70px;
+    left: 70px;
       bottom: 105px;
      font-size: 50px;
 }
@@ -149,10 +149,9 @@ color: brown;}
 }
 
 #post9 {
-    
+    position: relative;
       bottom: 85px;
       font-size: 50px;
-      left: 560px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

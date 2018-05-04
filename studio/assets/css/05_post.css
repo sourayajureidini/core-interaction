@@ -15,9 +15,9 @@ margin-left: 130px;
 
 #img3 {
 float: none;
-margin-top: 60px;
 display: block;
-margin-left: 30%;
+margin: 0 auto;
+margin-top: 70px;
 }
 
 .la {

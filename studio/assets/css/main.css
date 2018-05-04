@@ -74,7 +74,7 @@ a {
 .square {
 margin: auto;
 background-color: #2A3732;
-width: 1px;
+width: 2px;
 height: 130px;
 text-shadow: 1px 1px 1px #aaa;
 }
