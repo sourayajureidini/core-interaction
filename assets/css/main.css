@@ -1,102 +1,141 @@
 body {
-font-family: futura;
+font-family: 'Six Caps', sans-serif;
 background-image: url('../img/sky.jpg');
-background-size: contain;
-}
-
-a:link {
-color: white
+background-size: cover;
+margin: 100px;
+margin-top: 70px;
 }
 
 a:hover {
-color: darksalmon;
-opacity: 90%;
-transform: skew(-10deg);
+
+text-decoration-color: #b88c90;
 }
 
+
 .links {
-font-size: 100px;
-position: relative;
+font-size: 200px;
 top: 100px;
+margin: auto;
+text-decoration-color: #b88c90;
+}
+
+a {
+color: white;
+opacity: 0.3;
+}
+
+.about {
+display: block;
 }
 
 .studio {
-display: block;
-margin: auto;
-color: white;
-opacity: 70%;
+display: inline-block;;
 }
 
 .lab {
-display: block;
-color: white;
-opacity: 70%;
+display: inline-block;
+margin-left: auto;
 }
 
-.container {
-position: absolute;}
+.projects {
+display: block;}
 
-.logos {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin: auto;
-    top: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
-.logos {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.logos {
-    width: 100%;
-    height: 100%;
-}
-
-.logos {
-    position: absolute;
-    right: 0;
-    top: -20%;
-    height: 15%;
-    width: 15%;
-    background-color: #AA0000;
-    animation: square-to-circle 4s 0s infinite alternate;
-}
-
-
-@keyframes square-to-circle {
-  0%  {
-    border-radius:50%;
-    transform:rotate(180deg);
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
   }
 
-}
-30% {
-  border-radius:50% 50%;
-  transform:rotate(40deg);
-}
-}
-
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
   }
-  80% {
-    border-radius:50% 0 50% 50% ;
-    transform:rotate(180deg);
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
   }
 }
 
-80% {
-  border-radius:50% 50% 50% 50% ;
-  transform:rotate(180deg);
-}
+.studio:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
-100% {
-  border-radius:50% 50% 50% 50% ;
-  transform:rotate(180deg);
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
+
+.lab:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.projects:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
