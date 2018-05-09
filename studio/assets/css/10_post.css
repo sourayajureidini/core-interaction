@@ -1,7 +1,5 @@
-.img1 {
-margin-left: 35px;
-padding: 35px;
-border: 1px solid brown;
+.wrap {
+    margin-left: 40px;
 }
 
 .glossier-image {
@@ -9,11 +7,15 @@ margin-left: 35px;
 border: 1px solid brown;
 }
 
-
-.img1:hover {
+.glossier-image:hover {
          -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
          filter: grayscale(100%);
        }
+
+.asos-ad:hover {
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(70%);
+              }
 
 .photo-grid-wrap {
   display: flex;
@@ -22,6 +24,7 @@ border: 1px solid brown;
 
 .photo-grid {
   display: flex;
+  margin-left: -150px;
 }
 
 .photo-grid-item {
@@ -29,7 +32,16 @@ border: 1px solid brown;
   padding: 50px;
 }
 
+.lanebyrant-image-1 {
+border: 1px solid brown;
+margin-left: 35px;
+}
 
+.lanebyrant-image-2 {
+margin-left: 35px;
+padding: 35px;
+border: 1px solid brown;
+}
 
 #box {
     display: flex;
@@ -46,59 +58,16 @@ border: 1px solid brown;
     border: 1px solid brown;
 }
 
-.wrap {
-    margin-left: 40px;
-}
 
+@media only screen and (max-width: 1080px ) {
 
+    .photo-grid {
+      display: flex;
+    }
 
-.left:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
+    .lanebyrant-image-1 {
+    border: 1px solid brown;
+    margin-left: 45px;
+    }
 
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-
-
-.right:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 2px, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
 }

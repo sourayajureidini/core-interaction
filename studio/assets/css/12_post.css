@@ -215,3 +215,21 @@ border: 1px solid black;}
   margin-left: 100px;
   margin: auto;
 }
+
+@media only screen and (max-width: 1080px ) {
+
+.logos {
+    display: none;
+}
+
+    .next {
+        width: 10.5%;
+        height: 10.5%;
+    }
+
+    .back {
+    width: 10.5%;
+    height: 10.5%;
+    }
+
+}
