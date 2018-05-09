@@ -14,9 +14,8 @@ border: 1px solid brown;
          -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
          filter: grayscale(100%);
        }
-}
 
-.photo-grid-container {
+.photo-grid-wrap {
   display: flex;
   justify-content: center;
 }
@@ -102,20 +101,4 @@ border: 1px solid brown;
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
-}
-
-.next {
-    width: 1.5%;
-    height: 1.5%;
-    float: right;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.back {
-width: 1.5%;
-height: 1.5%;
-float: left;
-margin-top: 60px;
-margin-bottom: 40px;
 }
