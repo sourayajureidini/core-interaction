@@ -19,3 +19,21 @@ justify-content: space-around;
 margin-top: 80px;
 padding: 50px;
 }
+
+@media only screen and (max-width: 1080px ) {
+
+
+    .wrap {
+    display: block;
+    margin-top: 80px;
+    padding: 50px;
+    }
+
+    .la {
+        margin-left: 100px;
+        padding: 100px;
+        margin-top: 20px;
+        border: 1px solid brown;
+    }
+
+}
