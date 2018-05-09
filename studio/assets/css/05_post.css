@@ -20,7 +20,7 @@ margin: 0 auto;
 margin-top: 70px;
 }
 
-.la {
+.wrap-image{
   padding: 70px;
   margin-top: 60px;
   border: 1px solid brown;
@@ -38,4 +38,27 @@ img:hover {
         -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
         filter: grayscale(70%);
       }
+
+@media only screen and (max-width: 1080px ) {
+
+
+.wrap-image {
+    padding: 70px;
+    margin-top: 60px;
+    border: 1px solid brown;
+    margin: auto;
+}
+
+#img2 {
+float: none;
+display: inline-block;
+margin-left: 250px;
+}
+
+#img1 {
+float: none;
+display: block;
+margin-left: 250px;
+margin-top: 70px;
+}
 }
