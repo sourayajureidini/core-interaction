@@ -1,7 +1,6 @@
-.img1 {
+.dove-ad1, .dove-ad2 {
 border: 1px solid brown;
 }
-
 
  .img1:hover {
          -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -9,7 +8,7 @@ border: 1px solid brown;
        }
 }
 
-.photo-grid-container {
+.photo-grid-wrap {
   display: flex;
   justify-content: center;
 }
@@ -17,7 +16,6 @@ border: 1px solid brown;
 .photo-grid {
   width: 900px;
   display: flex;
-
 }
 
 .photo-grid-item {
@@ -35,4 +33,24 @@ video {
     margin-left: 25%;
     width: 650px;
     height: 650px;
+}
+
+@media only screen and (max-width: 1080px ) {
+
+    .photo-grid {
+     display: block;
+    }
+
+.dove-ad2 {
+    margin-top: -250px;
+}
+
+video {
+    margin-top: -540px;
+    padding: 20px;
+    margin-left: 3%;
+    width: 650px;
+    height: 650px;
+}
+
 }
