@@ -2,13 +2,13 @@
 box-sizing: border-box;}
 
 
-.la:hover {
+.box:hover {
       -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
       filter: grayscale(70%);
     }
 
 
-.la {
+.box {
     padding: 100px;
     margin-top: 20px;
     border: 1px solid brown;
@@ -21,7 +21,6 @@ padding: 50px;
 }
 
 @media only screen and (max-width: 1080px ) {
-
 
     .wrap {
     display: block;

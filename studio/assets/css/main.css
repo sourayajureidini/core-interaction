@@ -287,7 +287,7 @@ color: #aa5539;
         font-style: normal;
         font-size: 50px;
         top: 90px;
-        width:100%;
+        width:95%;
         color: #aa5539;
         line-height: 105px;
         padding-bottom: 20px;
@@ -313,7 +313,7 @@ color: #aa5539;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     text-align: center;
-    width: 100%;
+    width: 98%;
     line-height: 120px;
     padding-bottom: 55px;
     font-size: 30px;
@@ -336,5 +336,18 @@ color: #aa5539;
     margin-right: 70px;
     margin-top: 60px;
     margin-bottom: 50px;
+    }
+
+    .title{
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 120px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-left: -70px;
+        padding-top: -20px;
+        color: brown;
+
     }
 }
