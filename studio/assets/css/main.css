@@ -270,7 +270,7 @@ color: #aa5539;
 }
 
 
-@media only screen and (max-width: 1080px ) {
+@media only screen and (max-width: 1081px ) {
 
 
 
@@ -313,7 +313,7 @@ color: #aa5539;
     font-size: 45px;
     }
 
-    .title, h1 {
+    /* .title, h1 {
         font-family: 'Playfair Display', serif;
         font-weight: 900;
         font-style: italic;
@@ -323,7 +323,7 @@ color: #aa5539;
         padding-top: -10px;
         color: brown;
 
-    }
+    } */
 
 
 }
