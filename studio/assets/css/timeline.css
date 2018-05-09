@@ -152,7 +152,7 @@ color: brown;}
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
-    left: 31px;
+    left: auto;
   }
 
   /* Full-width containers */
@@ -179,6 +179,8 @@ color: brown;}
   .right {
     left: 0%;
   }
+
+
 }
 
 .menu-container {
@@ -200,7 +202,7 @@ color: brown;}
 .links {
   display: flex;
   justify-content:center;
- font-family: futura;
+  font-family: futura;
   font-size: 30px;
   color: black;
 }
@@ -216,7 +218,6 @@ color: black;
 color: black;
 text-decoration: none;
 }
-
 
 .photo-grid-wrap {
   display: flex;
@@ -252,13 +253,6 @@ img {
     filter: grayscale(90%);
 }
 
-.arrows {
-    display: flex;
-    margin-right: 100px;
-    padding-top: 50px;
-}
-
-
 .logos {
     margin: auto;
     top: 300px;
@@ -273,7 +267,6 @@ img {
     background-color: #AA0000;
     animation: square-to-circle 4s 0s infinite alternate;
 }
-
 
 
 @keyframes square-to-circle {
