@@ -2,31 +2,23 @@
 padding-bottom: 90px;
 }
 
-#img1 {
+#ad1-1920 {
 float: none;
 margin-left: 80px;
 padding-bottom: 50px;}
 
-#img2 {
+#ad2-1920 {
 float: none;
 display: inline-block;
 margin-left: 130px;
 }
 
-#img3 {
-float: none;
-margin-top: 60px;
-display: block;
-margin-left: 30%;
-}
-
-.la {
+.box {
   padding: 70px;
   margin-top: 60px;
   border: 1px solid brown;
   margin: auto;
 }
-
 
 img {
        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -38,4 +30,14 @@ img:hover {
         -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
         filter: grayscale(70%);
       }
+
+
+@media only screen and (max-width: 1080px ) {
+
+    #ad2-1920 {
+        
+    margin-left: 200px;
+    margin-top: 100px;
+
+    }
 }
