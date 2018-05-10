@@ -9,7 +9,7 @@ body {
 }
 
 .body {
-line-height: 40px;
+line-height: 45px;
 position: relative;
 padding-top: 30px;
 width: 55%;
@@ -28,7 +28,8 @@ p {
 
 .introduction {
     font-family: 'Playfair Display', serif;
-    font-style: normal;
+    font-weight: 900;
+    font-style: italic;
     font-size: 30px;
     top: 90px;
     width: 50%;
@@ -252,8 +253,8 @@ margin-bottom: 40px;
 font-family: 'Playfair Display', serif;
 font-weight: 900;
 text-align: center;
-margin-left: 90px ;
-width: 75%;
+margin-left: 150px ;
+width: 59%;
 padding-bottom: 39px;
 font-size: 20px;
 color: brown;
@@ -280,7 +281,7 @@ color: #aa5539;
     body {
 
         font-family: 'raleway', sans-serif;
-        font-size: 20px;
+
 
     }
 
@@ -302,15 +303,19 @@ color: #aa5539;
     }
 
     .body {
-    line-height: 90px;
+    line-height: 80px;
     width: 80%;
+    font-size: 20px;
     }
 
     .quote{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
+    font-style: italic;
     text-align: center;
-    width: 85%;
+    font-size: 50px;
+    margin: auto;
+    width: 80%;
 
     }
 
@@ -319,7 +324,7 @@ color: #aa5539;
         height: 10.5%;
         float: right;
         margin-top: 60px;
-        margin-right: 70px;
+
         margin-bottom: 50px;
     }
 
@@ -327,7 +332,7 @@ color: #aa5539;
     width: 10.5%;
     height: 10.5%;
     float: left;
-    margin-right: 70px;
+
     margin-top: 60px;
     margin-bottom: 50px;
     }
