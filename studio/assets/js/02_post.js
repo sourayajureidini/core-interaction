@@ -5,7 +5,7 @@ var containerTwo = document.querySelector('.container.two')
 
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ "In the 1950s, all American households <br> read one or more magazines per week.."];
+    var dataText = [ "In the 1950s, all American households read one or more magazines per week.."];
     var speed = 50;
 
 
