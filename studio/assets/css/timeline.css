@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
+
 }
+
 
 h3 {
   position:relative;
@@ -24,6 +26,8 @@ img {
     color:brown;
     font-family: 'Playfair Display', serif;
     font-size: 120px;
+    font-weight: 900;
+    font-style: italic;
     text-align: center;
     padding-top: 30px;
     text-shadow: 1px 1px 1px #aaa;
@@ -31,6 +35,7 @@ img {
 
 .subtitle {
     font-family: 'Playfair Display', serif;
+    font-weight: 900;
     text-align: center;
     font-size: 38px;
     font-weight: italic;
@@ -40,7 +45,8 @@ img {
 }
 
 a:hover {
-color: brown;}
+color: brown;
+}
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -110,11 +116,13 @@ color: brown;}
 
 /* The actual content */
 .content {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
     padding: 20px 30px;
     position: relative;
     border-radius: 6px;
     bottom: 5px;
-    font-family: 'Playfair Display', serif;
     left: 150px;
     text-shadow: 1px 1px 1px #aaa;
  }
