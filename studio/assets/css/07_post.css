@@ -1,60 +1,73 @@
-.body {
-margin-bottom: 70px;
+
+.grapenuts1-image {
+    max-width: 100%;
 }
 
- .grapenuts2:hover {
+.grapenuts2-image {
+    max-width: 100%;
+}
+
+.noshapead-image {
+max-width: 100%}
+
+.silvathings-image {
+max-width: 100%;}
+
+.wrap {
+    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.wrap-image{
+  padding: 70px;
+  margin-top: 60px;
+  border: 1px solid brown;
+}
+
+
+ .grapenuts2-image:hover {
          -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
          filter: grayscale(70%);
        }
 
-.grapenuts1:hover {
+.grapenuts1-image:hover {
          -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
          filter: grayscale(70%);
       }
 
-.noshapead:hover {
+.noshapead-image:hover {
         -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
         filter: grayscale(70%);
             }
 
-.silvathings:hover {
+.silvathings-image:hover {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(70%);
 }
 
-.wrap {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-top: 40px;
-}
 
-
-.wrap1 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-top: 40px;
-}
-
-
-#box {
+#boite {
   padding: 70px;
   margin-top: 60px;
   border: 1px solid brown;
-  margin-left: 100px;
 }
 
-#box1 {
+#boite-2 {
   padding: 70px;
   margin-top: 60px;
   border: 1px solid brown;
-  margin-left: 100px;
-  width: 480px;
+  margin-left: 200px;
 }
 
-#box2 {
-  padding: 70px;
-  margin-top: 60px;
-  border: 1px solid #aa5539;
-  margin-left: 100px;
-  width: 480px;
-}
+@media (max-width: 450px ) {
+
+    .wrap {
+        margin-bottom: 10px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    #boite-2 {
+
+       margin-left: 5px;
