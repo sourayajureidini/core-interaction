@@ -2,13 +2,6 @@
     box-sizing: border-box;
 }
 
-h2 {
-    position:relative;
-    right: 72px;
-    bottom: 75px;
-    font-size: 50px;
-}
-
 h3 {
   position:relative;
   right: 190px;
@@ -30,7 +23,7 @@ img {
 .title {
     color:brown;
     font-family: 'Playfair Display', serif;
-    font-size: 110px;
+    font-size: 120px;
     text-align: center;
     padding-top: 30px;
     text-shadow: 1px 1px 1px #aaa;
@@ -63,8 +56,7 @@ color: brown;}
 .timeline::after {
     content: '';
     position: absolute;
-    width: 1px;
-
+    width: 2px;
     background-color: peachpuff;
     top: 0;
     bottom: 0;
@@ -128,12 +120,12 @@ color: brown;}
  }
 
 
-#post5 {
-    position:relative;
-    left: 70px;
-      bottom: 105px;
-     font-size: 50px;
-}
+ #post1 {
+       position:relative;
+       right: 20px;
+       font-size: 50px;
+ }
+
 
 #post3 {
       position:relative;
@@ -142,45 +134,19 @@ color: brown;}
       font-size: 50px;
 }
 
-#post9 {
-    position: relative;
-      bottom: 85px;
-      font-size: 50px;
-}
+#right-text {
+    position:relative;
+    bottom: 85px;
+    right: 20px;
+    left: 220px;
+    font-size: 50px;}
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-    left: auto;
-  }
-
-  /* Full-width containers */
-  .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-    left: 15px;
-  }
-
-  /* Make all right containers behave like the left ones */
-  .right {
-    left: 0%;
-  }
-
-
+#right-text-10{
+    position:relative;
+    bottom: 5px;
+    right: 20px;
+    left: 220px;
+    font-size: 50px;
 }
 
 .menu-container {
@@ -293,4 +259,68 @@ img {
   border-radius:50% 50% 50% 50% ;
   transform:rotate(180deg);
 }
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+
+.photo-grid-wrap {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: -80px;
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 120px;
+    margin-left: 150px;
+    padding-top: -20px;
+    color: brown;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 38px;
+    font-weight: italic;
+}
+
+.timeline {
+    position: relative;
+    margin-left: 150px;;
+}
+
+
 }
