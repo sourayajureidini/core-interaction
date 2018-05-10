@@ -1,6 +1,7 @@
 .image {
   padding: 100px;
   display: block;
+  max-width: 100%;
   margin: auto;
   margin-top: 60px;
   border: 1px solid brown;
@@ -38,7 +39,7 @@ display: inline-block;
 
 .introduction {
     float: left;
-    width: 50%
+
 }
 
 .square {
@@ -49,15 +50,15 @@ height: 130px;
 margin-top: 10px;
 }
 
-@media only screen and (max-width: 1080px ) {
-
-    
+@media only screen and (max-width: 450px ) {
 
     .box {
-        margin-left: 100px;
-        padding: 100px;
         margin-top: 20px;
         border: 1px solid brown;
+    }
+
+    .image {
+      padding: 30px;
     }
 
 }

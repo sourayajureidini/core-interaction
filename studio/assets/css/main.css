@@ -32,7 +32,7 @@ p {
     font-style: italic;
     font-size: 30px;
     top: 90px;
-    width: 50%;
+    width: 70%;
     color: #aa5539;
     line-height: 50px;
     padding-bottom: 20px;
@@ -264,14 +264,14 @@ color: brown;
 color: #aa5539;
 }
 
-#la {
+#box {
     padding: 100px;
     margin-top: 20px;
     margin-bottom: 15px;
     border: 1px solid brown;
 }
 
-@media only screen and (max-width: 450px ) {
+@media (max-width: 450px ) {
 
     .logos {
         display:none;
@@ -279,139 +279,77 @@ color: #aa5539;
 
     body {
         font-family: 'raleway', sans-serif;
-        margin: 1px;
+        margin: 20px;
     }
 
     .introduction {
         font-family: 'Playfair Display', serif;
-        font-style: italic;
-        font-weight: 900;
-        font-size: 30px;
-        line-height: 105px;
+        font-style: normal;
+        line-height: 35px;
+        font-size: 18px;
+        margin: 20px;
+        color: #aa5539;
+        padding-top: 15px;
+        padding-bottom: 10px;
         justify-content: center;
-        width: 100%;
+
         }
 
-    .introduction::selection{
-    color: brown;
-    }
 
     .body {
-    line-height: 80px;
-    font-size: 20px;
-    width: 95%;
+    font-size: 16px;
+    line-height: 35px;
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 10px;
     }
 
     .quote {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 35px;
-    margin: auto;
-    width: 80%;
-
-    }
-
-    .next {
-        width: 10.5%;
-        height: 10.5%;
-        float: right;
-        margin-top: 60px;
-        margin-bottom: 50px;
-    }
-
-    .back {
-    width: 10.5%;
-    height: 10.5%;
-    float: left;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    }
-
-    .title {
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
-        font-style: italic;
-        text-align: center;
-        font-size: 50%;
-        margin: 0 center;
-        color: brown;
-
-    }
-}
-
-@media only screen and (max-width: 1080px ) {
-
-    .logos {
-        display:none;
-    }
-
-    body {
-        font-family: 'raleway', sans-serif;
-    }
-
-    .introduction {
-        font-family: 'Playfair Display', serif;
-        font-style: normal;
-        font-size: 50px;
-        top: 90px;
-        width:95%;
-        color: #aa5539;
-        line-height: 105px;
-        padding-bottom: 20px;
-        padding-top: 65px;
-        justify-content: center;
-        }
-
-    .introduction::selection{
-    color: brown;
-    }
-
-    .body {
-    line-height: 100px;
-    width: 89%;
-    font-size: 40px;
-    }
-
-    .quote{
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-style: italic;
     text-align: center;
-    font-size: 50px;
+    font-size: 15px;
     margin: auto;
     width: 80%;
-
     }
 
     .next {
-        width: 10.5%;
-        height: 10.5%;
+        width: 11.5%;
         float: right;
         margin-top: 60px;
-
         margin-bottom: 50px;
     }
 
     .back {
-    width: 10.5%;
-    height: 10.5%;
-    float: left;
-
+    width: 11.5%;
     margin-top: 60px;
     margin-bottom: 50px;
     }
 
-    .title {
+    h1 {
         font-family: 'Playfair Display', serif;
         font-weight: 900;
         font-style: italic;
-        font-size: 120px;
-        padding-bottom: 10px;
-        text-align: center;
-        margin-left: -70px;
-        padding-top: -20px;
+        font-size: 50px;
         color: brown;
+        padding-bottom: 0px;
 
     }
+
+    .square {
+    margin: auto;
+    background-color: #2A3732;
+    width: 1px;
+    height: 90px;
+    text-shadow: 1px 1px 1px #aaa;
+    }
+
+    #box {
+        padding: 50px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        border: 1px solid brown;
+    }
+
 }

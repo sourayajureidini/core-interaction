@@ -6,7 +6,7 @@ var imageDiv = document.querySelector('img.popupImage')
 
 document.addEventListener('DOMContentLoaded',function(event) {
     var i = 0;
-    var dataText = [ "During the post war period, magazines were the main mean of communicating, lifestyle and social ideals."];
+    var dataText = [ "During the post war period, magazines were the main mean of communication of lifestyle and social ideals."];
     var speed = 50;
 
 debtDiv.addEventListener('mouseover' , function() {

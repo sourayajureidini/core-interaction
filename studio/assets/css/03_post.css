@@ -7,34 +7,39 @@ box-sizing: border-box;}
       filter: grayscale(70%);
     }
 
-
-.box {
-    padding: 100px;
-    margin-top: 20px;
-    border: 1px solid brown;
-    margin-left: 80px;
-}
 .wrap {
 display: flex;
 justify-content: center;
 margin-top: 80px;
 padding: 50px;
+height: 815px;
+}
+
+.box {
+    max-width: 100%;
+    padding: 50px;
+    width: 540px;
+}
+
+.box-1 {
+    padding: 50px;
+    width: 550px;
 }
 
 
-@media only screen and (max-width: 1080px ) {
+
+
+@media only screen and (max-width: 450px ) {
 
     .wrap {
     display: block;
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 50px;
     }
 
-    .box {
-        margin-left: 100px;
-        padding: 100px;
-        margin-top: 20px;
-        border: 1px solid brown;
+    #nurse-3 {
+    width: 615px;
+      border: 3px solid brown;
     }
 
 }

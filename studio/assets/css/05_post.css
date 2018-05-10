@@ -2,18 +2,21 @@
 padding-bottom: 90px;
 }
 
-#img1 {
+#joker-image {
+max-width: 100%;
 float: none;
 margin-left: 90px;
 padding-bottom: 50px;}
 
-#img2 {
+#libertygirl-image {
+    max-width: 100%;
 float: none;
 display: inline-block;
 margin-left: 130px;
 }
 
-#img3 {
+#posters-image{
+max-width: 100%;
 float: none;
 display: block;
 margin: 0 auto;
@@ -50,24 +53,21 @@ img:hover {
 }
 
 
-#img1 {
-float: none;
+#joker-image {
+
 display: block;
 margin-left: auto;
-margin-top: 70px;
+margin-top: 15px;
 margin-bottom: 70px;
 }
 
-#img2 {
-float: none;
-display: inline-block;
+#libertygirl-image{
 margin-left: auto;
 }
 
-#img3 {
-float: none;
-display: block;
-margin: 0 auto;
-margin-top: 60px;
+#posters-image{
+margin-top: 20px;
+margin-left: auto;
+padding: 30px;
 }
 }

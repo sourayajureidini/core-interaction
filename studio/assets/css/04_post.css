@@ -3,17 +3,27 @@ justify-content: space-between;
 margin-top: 80px;
 }
 
-.la {
+.box {
   padding: 100px;
   display: block;
   margin-top: 60px;
   border: 1px solid brown;
+  max-width: 100%;
   margin: auto;
 }
 
-.quote {
-padding-top: 60px;
-padding-bottom: 60px;}
+
 .quote::selection {
 color: #aa5539;
+}
+
+@media (max-width: 450px ) {
+
+
+.box {
+    padding: 50px;
+    margin-top: 20px;
+    margin: auto;
+}
+
 }

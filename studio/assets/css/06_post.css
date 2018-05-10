@@ -2,54 +2,28 @@
  background: whitesmoke;
 }
 
-#A10 {
-color: black;
-padding: 30px;
-}
 
-.parent {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 100px;
-   -moz-column-width: 100px;
-    column-width: 100px;
-   text-align: justify;
-   padding: 40px;
-      }
-
-h3 {
-font-weight: normal;
-font-style: oblique;
-color: teal;
-font-family: futura;
-font-size: 60px;
-text-align: center;
-text-decoration: underline;
-}
-
-.column {
-width: 80%;}
-
- .img1 {
+ .virginiaslims-image {
      padding: 100px;
      display: block;
      margin: auto;
      margin-right: 70px;
+     max-width: 100%
  }
 
- .img2 {
+ .virginiaslims-image-2 {
      display: block;
      margin-left: 300px;
      margin-bottom: 60px;
+     max-width: 100%;
 
  }
 
- .img3 {
+ .steinem-image {
      display: block;
-    margin-left: 80px;
+     margin-left: 80px;
      margin-bottom: 60px;
-
+     max-width: 100%;
  }
 
 img {
@@ -62,16 +36,7 @@ img {
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
      filter: grayscale(100%);
        }
-}
 
-
-H4 {
-font-weight: normal;
-font-style: normal;
-padding-top: 140px;
-color: teal;
-font-family: futura;
-}
 
 #la {
   padding: 90px;
@@ -89,4 +54,26 @@ font-family: futura;
 
 .image {
 margin-left: 100px;
+}
+
+@media (max-width: 450px ) {
+
+
+    #la {
+      padding: 60px;
+      margin-top: 60px;
+      border: 1px solid brown;
+      margin-left: 0px;
+    }
+
+    #ra {
+      padding: 40px;
+      margin-left: auto;
+    }
+
+    .steinem-image {
+        margin-left: 0px;
+ margin-bottom: 0px;
+    }
+
 }
