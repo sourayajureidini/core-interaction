@@ -15,7 +15,7 @@ width: 92%;
     }
 
 .paragraph-2:hover {
-            color:#b88c90;
+            color:#b88c9b0;
             opacity: 0.6;
         }
 
@@ -39,7 +39,7 @@ width: 92%;
      height: 5.5%;
                  }
 
-                 .back:hover {
+.back:hover {
                    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
                    transform: translate3d(0, 0, 0);
                    backface-visibility: hidden;
@@ -63,3 +63,27 @@ width: 92%;
                      transform: translate3d(4px, 0, 0);
                    }
                  }
+
+
+@media only screen and (max-width: 1080px ) {
+
+.body {
+font-size: 67px;
+margin: auto;
+line-height: 100px;
+width: 93%;
+}
+.paragraph-1 {
+    color:#b88c90;
+}
+
+
+.paragraph-3 {
+    color:#b88c90;
+            }
+
+.back {
+    width: 10.5%;
+    height: 10.5%;
+    }
+}
