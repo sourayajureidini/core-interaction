@@ -49,16 +49,25 @@ img:hover {
     margin: auto;
 }
 
-#img2 {
-float: none;
-display: inline-block;
-margin-left: 250px;
-}
 
 #img1 {
 float: none;
 display: block;
-margin-left: 250px;
+margin-left: auto;
 margin-top: 70px;
+margin-bottom: 70px;
+}
+
+#img2 {
+float: none;
+display: inline-block;
+margin-left: auto;
+}
+
+#img3 {
+float: none;
+display: block;
+margin: 0 auto;
+margin-top: 60px;
 }
 }

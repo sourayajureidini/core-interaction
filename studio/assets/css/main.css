@@ -252,6 +252,8 @@ margin-bottom: 40px;
 font-family: 'Playfair Display', serif;
 font-weight: 900;
 text-align: center;
+margin-left: 90px ;
+width: 75%;
 padding-bottom: 39px;
 font-size: 20px;
 color: brown;
@@ -276,10 +278,10 @@ color: #aa5539;
     }
 
     body {
-        margin: 100px;
+
         font-family: 'raleway', sans-serif;
         font-size: 20px;
-        width:100%;
+
     }
 
     .introduction {
@@ -301,23 +303,15 @@ color: #aa5539;
 
     .body {
     line-height: 90px;
-    position: relative;
-    padding-top: 30px;
     width: 80%;
-    margin-left: 90px;
-    margin-top: 50px;
-    font-size: 45px;
     }
 
     .quote{
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     text-align: center;
-    width: 98%;
-    line-height: 120px;
-    padding-bottom: 55px;
-    font-size: 35px;
-    color: brown;
+    width: 85%;
+
     }
 
     .next {
@@ -338,7 +332,7 @@ color: #aa5539;
     margin-bottom: 50px;
     }
 
-    .title{
+    .title {
         font-family: 'Playfair Display', serif;
         font-weight: 900;
         font-style: italic;

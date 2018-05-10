@@ -30,13 +30,6 @@ background-color: snow;
 
 @media only screen and (max-width: 1080px ) {
 
-.logo-dot {
-margin-top: 435px;
-}
-
-.logo-letters {
-    margin-top: 450px;
-}
 }
 
 @keyframes square-to-circle {
