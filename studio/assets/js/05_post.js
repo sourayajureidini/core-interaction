@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     var i = 0;
-    var dataText = [ "Norman Percevel Rockwell was an <br> American illustrator, painter and authors."];
+    var dataText = [ "Norman Percevel Rockwell was an American illustrator, painter and authors."];
     var speed = 50;
 
   function typeWriter(text, i, fnCallback) {
