@@ -6,12 +6,14 @@ padding-bottom: 90px;
     display: flex;
     align-items: center;
     max-width: 100%;
+
 }
 
 #ad2-1920 {
 display: flex;
 align-items: center;
 max-width: 100%;
+margin-left: -120px;
 }
 
 
@@ -19,7 +21,6 @@ max-width: 100%;
   padding: 70px;
   margin-top: 30px;
   border: 1px solid brown;
-  margin: auto;
 }
 
 .boite-2 {
@@ -57,13 +58,10 @@ img:hover {
 
     #ad1-1920 {
         flex-direction: column;
-        width: 80%;
         margin-left: 0px;
     }
 
-    #ad2-1920 {
-    width: 80%;
-    height: 60%;
+    #ad2-1920 {;
     flex-direction: column;
     margin-left: 0px;
     }

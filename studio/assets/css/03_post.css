@@ -1,7 +1,9 @@
 * {
 box-sizing: border-box;}
 
-
+body {
+     background: whitesmoke;
+}
 .box:hover {
       -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
       filter: grayscale(70%);
@@ -13,20 +15,20 @@ justify-content: center;
 margin-top: 80px;
 padding: 50px;
 height: 815px;
+margin: 40px;
 }
 
 .box {
     max-width: 100%;
     padding: 50px;
     width: 540px;
+    margin: 50px;
 }
 
 .box-1 {
     padding: 50px;
     width: 550px;
 }
-
-
 
 
 @media only screen and (max-width: 450px ) {
@@ -42,4 +44,15 @@ height: 815px;
       border: 3px solid brown;
     }
 
+    .box {
+        margin: 0 auto;
+    }
+
+    .wrap {
+    margin-top: 30px;
+    padding: 0px;
+    }
+
+.quote{
+padding-top: 5px; }
 }

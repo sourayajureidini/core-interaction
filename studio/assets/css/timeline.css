@@ -325,6 +325,7 @@ img {
     right: 0;
     top: -20%;
     width: 475px;
+    max-width: 100%;
     height: 1%;
     background-color: #AA0000;
     animation: square-to-circle 4s 0s infinite alternate;
@@ -357,11 +358,11 @@ img {
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
 
   /* Full-width containers */
   .container {
-    left: 200px;
+    left: 190px;
     padding-left: 70px;
     padding-right: 25px;
   }
@@ -376,7 +377,7 @@ img {
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 0px;
+    left: 15px;
   }
 
   /* Make all right containers behave like the left ones */
@@ -409,9 +410,6 @@ img {
     font-weight: italic;
 }
 
-
-.logos {
-display: none;}
 
 img {
     width: 70%;

@@ -1,5 +1,3 @@
-.arrows {
-margin: 80px;}
 
 .next {
     width: 5.5%;
@@ -69,7 +67,7 @@ body {
    position: relative;
 }
 
-.banner {
+.screen-image {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -101,6 +99,7 @@ body {
    z-index: -1;
    object-fit: cover;
    position: absolute;
+   max-width: 100%;
 }
 
 .square {
@@ -110,7 +109,6 @@ margin-bottom: 100px;
 background-color: black;
 width: 2px;
 height: 130px;
-background:
 text-shadow: 1px 1px 1px #aaa;
 }
 
@@ -127,6 +125,9 @@ height: 2px;
 width: 130px;
 text-shadow: 1px 1px 1px #aaa;
 }
+
+img {
+max-width: 100%;}
 
 #box {
   padding: 70px;
@@ -216,20 +217,37 @@ border: 1px solid black;}
   margin: auto;
 }
 
-@media only screen and (max-width: 1080px ) {
+@media only screen and (max-width: 450px ) {
 
 .logos {
     display: none;
 }
 
+#box-1 {
+  padding: 0px;
+
+}
+
+.square {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.square-1 {
+margin-top: 100px;
+margin-bottom: 0px;
+}
+
     .next {
-        width: 10.5%;
-        height: 10.5%;
+            margin-top: 30px;
+        width: 11.5%;
+        height: 11.5%;
     }
 
     .back {
-    width: 10.5%;
-    height: 10.5%;
+        margin-top: 30px;
+    width: 11.5%;
+    height: 11.5%;
     }
 
 }

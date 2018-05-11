@@ -16,21 +16,6 @@ background-color: snow;
 }
 
 
-.logo-dot {
-    position: absolute;
-    right: 0;
-    top: -20%;
-    height: 15%;
-    width: 15%;
-    background-color: #AA0000;
-    animation: square-to-circle 4s 0s infinite alternate;
-}
-
-
-
-@media only screen and (max-width: 1080px ) {
-
-}
 
 @keyframes square-to-circle {
   0%  {
@@ -56,4 +41,30 @@ background-color: snow;
   border-radius:50% 50% 50% 50% ;
   transform:rotate(180deg);
 }
+
+
+.logo-dot {
+    position: absolute;
+    right: 0;
+    top: -20%;
+    height: 15%;
+    width: 15%;
+    background-color: #AA0000;
+    animation: square-to-circle 4s 0s infinite alternate;
+}
+
+
+@media only screen and (max-width: 450px ) {
+
+    .header-container {
+    align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .header {
+        align-items: center;
+      display: flex;
+      justify-content: center;
+    }
 }

@@ -6,6 +6,7 @@ body {
     margin: 100px;
     font-family: 'raleway', sans-serif;
     font-size: 20px;
+    
 }
 
 .body {
@@ -255,7 +256,6 @@ font-weight: 900;
 text-align: center;
 margin-left: 150px ;
 width: 59%;
-padding-bottom: 39px;
 font-size: 20px;
 color: brown;
 }
@@ -308,10 +308,11 @@ color: #aa5539;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-style: italic;
+    padding-bottom: 39px;
     text-align: center;
     font-size: 15px;
     margin: auto;
-    width: 80%;
+    width: 90%;
     }
 
     .next {

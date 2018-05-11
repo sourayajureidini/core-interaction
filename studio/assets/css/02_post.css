@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
 }
-
+body {
+ background: whitesmoke;}
 .campbell-1934 {
     width: 540px;
  max-width: 100%;
