@@ -69,5 +69,18 @@ max-width: 100%;}
     }
 
     #boite-2 {
+       margin-left: -5px;}
 
-       margin-left: 5px;
+       .grapenuts1-image {
+           margin-left: -5px;
+       }
+
+       .grapenuts2-image {
+           margin-left: -5px;
+
+       }
+       .noshapead-image {
+       margin-left: -5px;}
+
+       .silvathings-image {
+       margin-left: -5px;}

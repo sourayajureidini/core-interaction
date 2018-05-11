@@ -3,8 +3,20 @@
 }
 
 .glossier-image {
+max-width: 100%;
 margin-left: 35px;
 border: 1px solid brown;
+}
+
+.asos-ad {
+    max-width: 100%;
+}
+
+.lanebyrant-image-1 {
+    max-width: 100%;}
+
+.lanebyrant-image-2 {
+    max-width: 100%;
 }
 
 .glossier-image:hover {
@@ -24,7 +36,7 @@ border: 1px solid brown;
 
 .photo-grid {
   display: flex;
-  margin-left: -150px;
+
 }
 
 .photo-grid-item {
@@ -33,17 +45,21 @@ border: 1px solid brown;
 }
 
 .lanebyrant-image-1 {
+    display: flex;
+padding: 35px;
 border: 1px solid brown;
 margin-left: 35px;
 }
 
 .lanebyrant-image-2 {
+display: flex;
 margin-left: 35px;
 padding: 35px;
 border: 1px solid brown;
 }
 
-#box {
+
+#boite {
     display: flex;
     margin-top: 80px;
     margin-left: 50px;
@@ -51,7 +67,8 @@ border: 1px solid brown;
     border: 1px solid brown;
 }
 
-#box-1 {
+#boite-1 {
+    display: flex;
     margin-left: 120px;
     padding: 100px;
     margin-top: 20px;
@@ -59,15 +76,57 @@ border: 1px solid brown;
 }
 
 
-@media only screen and (max-width: 1080px ) {
+@media only screen and (max-width: 450px ) {
 
     .photo-grid {
-      display: flex;
+      flex-direction: column;
     }
 
-    .lanebyrant-image-1 {
-    border: 1px solid brown;
-    margin-left: 45px;
+
+    .photo-grid-item {
+      width:400px;
+      padding: 20px;
     }
+
+    .glossier-image {
+    margin-left: 0px;
+    }
+
+    .asos-image {
+    margin-left: 0px;
+}
+
+
+    .lanebyrant-image-1 {
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .lanebyrant-image-2 {
+        margin-left: 0px;
+
+    }
+
+    .wrap {
+            margin-left: 0px;
+            width: 400px;
+        }
+
+
+    #boite {
+        padding: 0px;
+        margin-bottom: 40px;
+        width: 80%;
+    }
+
+    #boite-1 {
+        margin-left: 45px;
+        padding: 50px;
+        margin-bottom: 32px;
+        margin-top: 20px;
+        width: 80%;
+    }
+
 
 }
