@@ -1,5 +1,4 @@
-body {
-    background: whitesmoke;}
+
 
 .body {
 padding-bottom: 90px;
@@ -71,9 +70,5 @@ margin-left: auto;
 #posters-image{
 margin-top: 20px;
 margin-left: auto;
-padding: 30px;
-}
-
-.quote{
-width: 89%;}
+padding: 10px;
 }

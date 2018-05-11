@@ -1,5 +1,6 @@
  body {
-     background: whitesmoke;}
+     background: whitesmoke;
+    opacity: 0.9;}
 
 .wrap {
     margin-left: 40px;

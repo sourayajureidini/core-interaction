@@ -3,16 +3,20 @@
     width: 5.5%;
     height: 5.5%;
     float: right;
+    margin-top: 40px;
     margin-bottom: 40px;
+    margin-right: 50px;
 }
 
 .back {
+margin-right: 150px;
 width: 5.5%;
 height: 5.5%;
 float: left;
+margin-left: 50px;
+margin-top: 40px;
 margin-bottom: 40px;
 }
-
 
 .logos {
      display: block;
@@ -59,9 +63,6 @@ margin-bottom: 40px;
 }
 }
 
-body {
-   position: relative;
-}
 
 .container {
    position: relative;
@@ -88,23 +89,21 @@ body {
 .title:hover {
    color: black;
 }
-
-
 .banner-image {
    top: 0;
-   left: 0;
+   left: 120;
    right: 0;
    width: 100%;
    height: 100vh;
    z-index: -1;
    object-fit: cover;
    position: absolute;
-   max-width: 100%;
 }
 
 .square {
 margin: auto;
 margin-top: 100px;
+margin-left: 12%;
 margin-bottom: 100px;
 background-color: black;
 width: 2px;
@@ -117,6 +116,7 @@ margin-left:auto;
 }
 
 .square-1 {
+
 margin: auto;
 margin-top: 100px;
 margin-bottom: 70px;
@@ -126,8 +126,6 @@ width: 130px;
 text-shadow: 1px 1px 1px #aaa;
 }
 
-img {
-max-width: 100%;}
 
 #box {
   padding: 70px;
@@ -136,6 +134,7 @@ max-width: 100%;}
   margin-left: 100px;
   margin: auto;
 }
+
 
 .it-images {
 border: 1px solid black;}
@@ -215,39 +214,4 @@ border: 1px solid black;}
   border: 1px solid #b88c90;
   margin-left: 100px;
   margin: auto;
-}
-
-@media only screen and (max-width: 450px ) {
-
-.logos {
-    display: none;
-}
-
-#box-1 {
-  padding: 0px;
-
-}
-
-.square {
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-.square-1 {
-margin-top: 100px;
-margin-bottom: 0px;
-}
-
-    .next {
-            margin-top: 30px;
-        width: 11.5%;
-        height: 11.5%;
-    }
-
-    .back {
-        margin-top: 30px;
-    width: 11.5%;
-    height: 11.5%;
-    }
-
 }
