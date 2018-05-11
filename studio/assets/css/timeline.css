@@ -376,7 +376,7 @@ img {
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 5px;
+    left: 0px;
   }
 
   /* Make all right containers behave like the left ones */
@@ -412,6 +412,7 @@ img {
 
 .logos {
 display: none;}
+
 img {
     width: 70%;
     padding: 0px;
